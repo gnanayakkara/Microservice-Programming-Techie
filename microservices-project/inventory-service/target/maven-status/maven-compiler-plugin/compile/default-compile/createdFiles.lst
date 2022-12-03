@@ -1,0 +1,6 @@
+com\gayan\inventoryservice\controller\InventoryController.class
+com\gayan\inventoryservice\model\Inventory.class
+com\gayan\inventoryservice\service\InventoryService.class
+com\gayan\inventoryservice\InventoryServiceApplication.class
+com\gayan\inventoryservice\model\Inventory$InventoryBuilder.class
+com\gayan\inventoryservice\repository\InventoryRepository.class

@@ -1,0 +1,10 @@
+com\gayan\productservice\model\Product$ProductBuilder.class
+com\gayan\productservice\ProductController.class
+com\gayan\productservice\service\ProductService.class
+com\gayan\productservice\dto\ProductRequest.class
+com\gayan\productservice\ProductServiceApplication.class
+com\gayan\productservice\dto\ProductResponse$ProductResponseBuilder.class
+com\gayan\productservice\model\Product.class
+com\gayan\productservice\repository\ProductRepository.class
+com\gayan\productservice\dto\ProductRequest$ProductRequestBuilder.class
+com\gayan\productservice\dto\ProductResponse.class
