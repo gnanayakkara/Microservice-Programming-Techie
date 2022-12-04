@@ -21,7 +21,7 @@ import java.util.UUID;
 public class OrderService {
 
     private final OrderRepository orderRepository;
-    private final WebClient webClient;
+    private final WebClient.Builder webClientBuilder;
 
     public void placeOrder(OrderRequest orderRequest) throws IllegalAccessException {
 
@@ -40,8 +40,8 @@ public class OrderService {
                 .toList();
 
         //call Inventory Service and place order if product is in
-        InventoryResponse[] inventoryResponsArray = webClient.get()
-                .uri("http://localhost:8082/api/inventory",
+        InventoryResponse[] inventoryResponsArray = webClientBuilder.build().get()
+                .uri("http://inventory-service/api/inventory",
                         uriBuilder -> uriBuilder.queryParam("skuCode",skuCodes).build())
                 .retrieve()
                 .bodyToMono(InventoryResponse[].class)

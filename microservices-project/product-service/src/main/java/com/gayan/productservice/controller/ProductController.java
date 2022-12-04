@@ -1,4 +1,4 @@
-package com.gayan.productservice;
+package com.gayan.productservice.controller;
 
 import com.gayan.productservice.dto.ProductRequest;
 import com.gayan.productservice.dto.ProductResponse;
