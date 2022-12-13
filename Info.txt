@@ -1,0 +1,14 @@
+--Key cloack for security
+--https://www.keycloak.org/getting-started/getting-started-docker
+docker run -p 8181:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:18.0.0 start-dev
+
+--Zipkin for distributed tracing
+docker run -d -p 9411:9411 openzipkin/zipkin
+
+--for kafka
+docker compose up -d
+
+
+
+--Youtube
+https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c
