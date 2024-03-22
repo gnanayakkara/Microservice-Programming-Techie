@@ -1,2 +1,10 @@
-
+# Compiled class file
 *.class
+
+# Log file
+*.log
+
+*.pb
+.idea*
+*.iml
+.DS_Store
